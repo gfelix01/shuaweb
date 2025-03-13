@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:memory": "node --max-old-space-size=4096 node_modules/.bin/next build"
   },
   "engines": {
     "node": "20.18.0"
