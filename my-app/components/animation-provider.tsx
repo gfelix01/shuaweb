@@ -3,7 +3,7 @@
 import { useEffect, type ReactNode, useTransition } from "react"
 
 export function AnimationProvider({ children }: { children: ReactNode }) {
-  const [, startTransition] = useTransition()
+  const [isPending, startTransition] = useTransition()
 
   useEffect(() => {
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {

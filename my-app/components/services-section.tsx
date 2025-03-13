@@ -23,7 +23,6 @@ const services = [
     title: "Maquillaje",
     description: "Maquillaje profesional para toda ocasión",
     icon: "💄",
-    image: "/images/maquillaje.jpg", // Added image property
     items: [
       "Maquillaje social",
       "Maquillaje de novia",

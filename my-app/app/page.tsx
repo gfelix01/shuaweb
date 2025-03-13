@@ -91,7 +91,7 @@ export default function ShuaMakeup() {
       <HeroSection />
 
       {/* Services Section */}
-      <ServicesSection />
+      <ServicesSection services={[]} />
 
       {/* Promotions Section */}
       <PromotionsSection />

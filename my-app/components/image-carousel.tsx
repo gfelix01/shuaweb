@@ -97,9 +97,8 @@ export function ImageCarousel({ images }: ImageCarouselProps) {
         {images.map((_, index) => (
           <button
             key={index}
-            className={`h-2 rounded-full transition-all duration-300 ${
-              index === currentIndex ? "w-10 bg-primary" : "w-2 bg-white/50 hover:bg-white/80"
-            }`}
+            className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex ? "w-10 bg-primary" : "w-2 bg-white/50 hover:bg-white/80"
+              }`}
             onClick={() => {
               setCurrentIndex(index)
               setIsAutoPlaying(false)

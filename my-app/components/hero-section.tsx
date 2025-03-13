@@ -17,7 +17,7 @@ export function HeroSection() {
       {/* Contenedor de imagen con ancho fijo */}
       <div className="absolute inset-0 w-full max-w-[1920px] mx-auto">
         <OptimizedImage
-          src="/images/trabajo2.jpg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-02-23%20a%20las%2020.03.16_89ef1953.jpg-6ZDuKGSoeai9rPZLlbWz5BsCOWUJxm.jpeg"
           alt="Shua Makeup & Beauty"
           fill
           priority
