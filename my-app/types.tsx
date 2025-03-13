@@ -1,8 +1,7 @@
 export interface GallerySectionProps {
-  showFullContent?: boolean
+    showFullContent?: boolean
 }
 
 export interface TestimonialsSectionProps {
-  showFullContent?: boolean
+    showFullContent?: boolean
 }
-
