@@ -10,7 +10,7 @@
     "build:memory": "node --max-old-space-size=4096 node_modules/.bin/next build"
   },
   "engines": {
-    "node": "20"
+    "node": "18"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",
