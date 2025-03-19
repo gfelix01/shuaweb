@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "@eslint/config-array": "^3.0.0"
+    }
+}
