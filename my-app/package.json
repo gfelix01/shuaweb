@@ -30,6 +30,6 @@
     "eslint": "^8.57.1",
     "rimraf": "^4.0.0",
     "glob": "^9.0.0",
-    "@eslint/config-array": "^3.2.0"
+    "@eslint/config-array": "^3.1.0"
   }
 }
